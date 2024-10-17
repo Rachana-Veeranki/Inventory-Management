@@ -6,39 +6,30 @@ A brief description of what your project does.
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
 - [Running Tests](#running-tests)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
+The Inventory Management System is a powerful and flexible solution designed to help businesses efficiently track and manage their inventory levels, orders, sales, and deliveries. This system enables companies to have a clear overview of stock availability, automate reordering processes, and reduce instances of stockouts or overstocking, ultimately optimizing overall operational performance.
 
-Briefly describe the purpose of the project, the problem it solves, or the motivation behind it.
-
-## Features
-
-- Feature 1: Brief description
-- Feature 2: Brief description
-- Feature 3: Brief description
 
 ## Requirements
 
 - Python >= 3.6
 - Django >= 3.0
 - Django Rest Framework >= 3.12
-- Other dependencies (if any)
 
 ## Installation
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+git clone https://github.com/Rachana-Veeranki/Inventory-Management.git
+cd Inventory-Management
 ```
 
 ### 2. Create a Virtual Environment
@@ -61,6 +52,7 @@ pip install -r requirements.txt
 Run the migrations:
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -121,20 +113,3 @@ To run tests:
 ```bash
 python manage.py test
 ```
-
-## Contributing
-
-Contributions are welcome! Follow the steps below to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes.
-4. Commit the changes (`git commit -m 'Add new feature'`).
-5. Push to the branch (`git push origin feature-name`).
-6. Open a pull request.
-
-Please make sure your code follows the project's coding style and passes all tests before submitting a PR.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
